@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        input[type=text], select {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+        
+        
+        div {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+        }
+        </style>
+        
+        <body>
+            <form action="/users/" method="POST" enctype="application/x-www-form-urlencoded">
+                <label for="username">User Name</label>
+                <input type="text" id="username" name="username" required><br>
+                <label for="password">Password</label>
+                <input type="text" id="password" name="password" required><br>
+                <button type="submit">Login</button>
+             </form>
+        </body>
+        
+</html>
